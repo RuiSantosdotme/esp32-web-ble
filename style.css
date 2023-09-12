@@ -20,7 +20,7 @@ body {
 .card-grid {
     max-width: 800px;
     margin: 0 auto;
-    margin-bottom: 1%;
+    margin-bottom: 30px;
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
