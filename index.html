@@ -81,6 +81,7 @@
     function isWebBluetoothEnabled() {
         if (!navigator.bluetooth) {
             console.log('Web Bluetooth API is not available in this browser!');
+            bleStateContainer.innerHTML = "Web Bluetooth API is not available in this browser/device!";
             return false
         }
         console.log('Web Bluetooth API supported in this browser.');
